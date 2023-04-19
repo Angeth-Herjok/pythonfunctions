@@ -23,7 +23,6 @@ def multiply_many(**kwargs):
       return answer
 
      
-     
 
 def concatenate_args(*names):
       result=""
