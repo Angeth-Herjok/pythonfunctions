@@ -74,7 +74,7 @@ def an_even_numbers():
 
 # Write a function that takes an integer argument and prints "Prime" 
 # if the number is prime, and "Not prime" if the number is not prime.
-def prime_number(num=4):
+def prime_number(num=13):
     if num % 1==0 and num % 13==0:
         print("Prime")
     else:
