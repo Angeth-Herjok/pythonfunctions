@@ -1,3 +1,6 @@
+from paramiko import Agent
+
+
 class Student:
     name="Angeth"
     age=21
@@ -34,10 +37,10 @@ class Student:
     def show_full_name(self):
         return f"{self.first_name}  {self.last_name}"
     def year_of_birth(self):
-        return f"{self.age}"
+        return f"{2023-{self.age}}"
     
     def show_initials(self):
-        return f"{self.first_name[0]}{self.last_name}"
+        return f"{self.first_name[0].uppercase()} {self.last_name[0].uppercase()}"
         
 
      
