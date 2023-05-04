@@ -13,7 +13,7 @@ def odd_numbers():
 def divisible_five():
     x=range(50)
     for i in x:
-        if i%5==0:
+        if i % 5==0:
             print(f"{i} is divisible by 5") 
         else:
             print(f"{i} is not divisible by 5")   
@@ -21,7 +21,7 @@ def divisible_five():
 def multiple_comparison():
     x=range(50)
     for i in x:
-        if i %5==0:
+        if i % 5==0:
             print(f"{i} is divisible by 5")
         elif i % 7==0:
             print(f"{i} is divisible by 7")
@@ -33,9 +33,9 @@ def multiple_comparison():
 def odd_or_even():
     x=range(20)
     for i in x:
-        if i%2==0 and i % 3==0:
+        if i % 2==0 and i % 3==0:
             print(f"{i} is diisble by both 2 and 3")
-        elif i % 2==0 or i %3==0:
+        elif i % 2==0 or i % 3==0:
             print(f"{i} is divisible by either 2 or 3")
         else:
             print(f"{i} is not divisible by either 2 or 3")   
@@ -58,7 +58,7 @@ def continue_statement():
     x=0
     while x<=20:
         x+=1
-        if x %3==0:
+        if x % 3==0:
             continue
         print(x)
             
@@ -90,6 +90,7 @@ def sum_even_numbers(numbers):
             sum=sum+number
         print(sum)
 # sum_even_numbers([1,2,3,4,5,6,7,8,9])
+
 # Write a function that takes any two integers as input, and prints
 # the sum of all the numbers between the two integers (inclusive) that are divisible by 3.
 def sum_all_interger(num=10,num1=30):
