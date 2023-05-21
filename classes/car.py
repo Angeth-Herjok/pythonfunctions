@@ -9,6 +9,6 @@ class Car:
         return f"This is Nissan{self.model}"
     def start(self):
         return f"Nissan{self.model} is starting"
-    def speed(self):
+    def acceleration(self):
         return f"Nissan{self.model} covers 200km/hr in 1hr"
    

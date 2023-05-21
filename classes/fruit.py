@@ -1,13 +1,16 @@
 class Fruit:
     texture="smooth"
+    size="big"
+    shape="circular"
+    color="orange"
 
 class Fruit:
-    def __init__(self,texture):
+    def __init__(self,texture,size,shape,color):
         self.texture=texture
-    def texture(self):
+    def grow(self):
         return f"Orange is {self.texture}"
-    def shape(self):
+    def ripe(self):
         return f"Orange is {self.texture} and radial"
-    def color(self):
+    def rot(self):
         return f"Orange is {self.texture} and orange in color"
     
